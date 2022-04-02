@@ -6,6 +6,9 @@ html{
     display: flex;
     justify-content: space-between;
 }
+.nav_bar{
+    display: none;
+}
 .logo {
     margin: 30px;
 }
@@ -146,11 +149,28 @@ hr {
     .content_grid {
         grid-template-columns: 1fr;
     }
+    .text1 { 
+        order: 1;
+    }
+    .img1 { 
+        order: 2;
+    }
+    .text2 { 
+        order: 3;
+    }
+    .img2 { 
+        order: 4;
+    }
+    .text3 { 
+        order: 5;
+    }
+    .img3 { 
+        order: 6;
+    }
     .content_phone {
         height: 300px;
         position: relative;
         top: -30%;
-
     }
     img {
         width: 80%;
@@ -178,6 +198,9 @@ hr {
     }
     .nav_buttons{
         display: none;
+    }
+    .nav_bar{
+        display:block;
     }
     .content_grid h3 {
         font-size: 0.7rem;
